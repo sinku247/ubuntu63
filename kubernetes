@@ -1,0 +1,1590 @@
+C:\Users\maver>ssh sinku247@20.222.146.58
+The authenticity of host '20.222.146.58 (20.222.146.58)' can't be established.
+ED25519 key fingerprint is SHA256:9sIF1nvfATCKNh7ByGA3ZBa+ILJB66ohD7JsbxhgRbQ.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+
+C:\Users\maver>ssh sinku247@20.222.146.58
+The authenticity of host '20.222.146.58 (20.222.146.58)' can't be established.
+ED25519 key fingerprint is SHA256:9sIF1nvfATCKNh7ByGA3ZBa+ILJB66ohD7JsbxhgRbQ.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '20.222.146.58' (ED25519) to the list of known hosts.
+sinku247@20.222.146.58's password:
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-1037-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  3 01:10:04 UTC 2023
+
+  System load:  0.357421875       Processes:             149
+  Usage of /:   5.0% of 28.89GB   Users logged in:       0
+  Memory usage: 2%                IPv4 address for eth0: 10.7.0.4
+  Swap usage:   0%
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+sinku247@labuser63:~$ sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+sinku247@labuser63:~$ sudo apt-get update
+Hit:1 http://azure.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://azure.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+Get:11 http://azure.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1069 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [14.3 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [912 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [183 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [18.7 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [39.0 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [8736 B]
+Get:18 http://azure.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [468 B]
+Get:19 http://azure.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [40.9 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [10.2 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
+Get:22 http://azure.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:23 http://azure.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [22.2 kB]
+Get:24 http://azure.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [15.0 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [548 B]
+Get:26 http://azure.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:27 http://azure.archive.ubuntu.com/ubuntu jammy-security/main amd64 Packages [800 kB]
+Get:28 http://azure.archive.ubuntu.com/ubuntu jammy-security/main Translation-en [156 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [9144 B]
+Get:30 http://azure.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [729 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu jammy-security/universe Translation-en [121 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [14.3 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [34.3 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [6464 B]
+Get:35 http://azure.archive.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [252 B]
+Fetched 24.9 MB in 4s (6275 kB/s)
+Reading package lists... Done
+sinku247@labuser63:~$ sudo apt-get update
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg
+Hit:1 http://azure.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://azure.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://azure.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://azure.archive.ubuntu.com/ubuntu jammy-security InRelease
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+ca-certificates is already the newest version (20211016ubuntu0.22.04.1).
+ca-certificates set to manually installed.
+curl is already the newest version (7.81.0-1ubuntu1.10).
+curl set to manually installed.
+gnupg is already the newest version (2.2.27-3ubuntu2.1).
+gnupg set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+sinku247@labuser63:~$ sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+sinku247@labuser63:~$ echo \
+  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sinku247@labuser63:~$ sudo apt-get update
+Hit:1 http://azure.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://azure.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://azure.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://azure.archive.ubuntu.com/ubuntu jammy-security InRelease
+Get:5 https://download.docker.com/linux/ubuntu jammy InRelease [48.9 kB]
+Get:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages [16.7 kB]
+Fetched 65.6 kB in 1s (128 kB/s)
+Reading package lists... Done
+sinku247@labuser63:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  docker-ce-rootless-extras libltdl7 libslirp0 pigz slirp4netns
+Suggested packages:
+  aufs-tools cgroupfs-mount | cgroup-lite
+The following NEW packages will be installed:
+  containerd.io docker-buildx-plugin docker-ce docker-ce-cli docker-ce-rootless-extras docker-compose-plugin libltdl7
+  libslirp0 pigz slirp4netns
+0 upgraded, 10 newly installed, 0 to remove and 2 not upgraded.
+Need to get 109 MB of archives.
+After this operation, 396 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 https://download.docker.com/linux/ubuntu jammy/stable amd64 containerd.io amd64 1.6.20-1 [28.3 MB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 pigz amd64 2.6-1 [63.6 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu jammy/main amd64 libltdl7 amd64 2.4.6-15build2 [39.6 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu jammy/main amd64 libslirp0 amd64 4.6.1-1build1 [61.5 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 slirp4netns amd64 1.0.1-2 [28.2 kB]
+Get:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-buildx-plugin amd64 0.10.4-1~ubuntu.22.04~jammy [25.9 MB]
+Get:7 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce-cli amd64 5:23.0.5-1~ubuntu.22.04~jammy [13.2 MB]
+Get:8 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce amd64 5:23.0.5-1~ubuntu.22.04~jammy [22.0 MB]
+Get:9 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce-rootless-extras amd64 5:23.0.5-1~ubuntu.22.04~jammy [8774 kB]
+Get:10 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-compose-plugin amd64 2.17.3-1~ubuntu.22.04~jammy [10.9 MB]
+Fetched 109 MB in 2s (59.5 MB/s)
+Selecting previously unselected package pigz.
+(Reading database ... 60405 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.6-1_amd64.deb ...
+Unpacking pigz (2.6-1) ...
+Selecting previously unselected package containerd.io.
+Preparing to unpack .../1-containerd.io_1.6.20-1_amd64.deb ...
+Unpacking containerd.io (1.6.20-1) ...
+Selecting previously unselected package docker-buildx-plugin.
+Preparing to unpack .../2-docker-buildx-plugin_0.10.4-1~ubuntu.22.04~jammy_amd64.deb ...
+Unpacking docker-buildx-plugin (0.10.4-1~ubuntu.22.04~jammy) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../3-docker-ce-cli_5%3a23.0.5-1~ubuntu.22.04~jammy_amd64.deb ...
+Unpacking docker-ce-cli (5:23.0.5-1~ubuntu.22.04~jammy) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../4-docker-ce_5%3a23.0.5-1~ubuntu.22.04~jammy_amd64.deb ...
+Unpacking docker-ce (5:23.0.5-1~ubuntu.22.04~jammy) ...
+Selecting previously unselected package docker-ce-rootless-extras.
+Preparing to unpack .../5-docker-ce-rootless-extras_5%3a23.0.5-1~ubuntu.22.04~jammy_amd64.deb ...
+Unpacking docker-ce-rootless-extras (5:23.0.5-1~ubuntu.22.04~jammy) ...
+Selecting previously unselected package docker-compose-plugin.
+Preparing to unpack .../6-docker-compose-plugin_2.17.3-1~ubuntu.22.04~jammy_amd64.deb ...
+Unpacking docker-compose-plugin (2.17.3-1~ubuntu.22.04~jammy) ...
+Selecting previously unselected package libltdl7:amd64.
+Preparing to unpack .../7-libltdl7_2.4.6-15build2_amd64.deb ...
+Unpacking libltdl7:amd64 (2.4.6-15build2) ...
+Selecting previously unselected package libslirp0:amd64.
+Preparing to unpack .../8-libslirp0_4.6.1-1build1_amd64.deb ...
+Unpacking libslirp0:amd64 (4.6.1-1build1) ...
+Selecting previously unselected package slirp4netns.
+Preparing to unpack .../9-slirp4netns_1.0.1-2_amd64.deb ...
+Unpacking slirp4netns (1.0.1-2) ...
+Setting up docker-buildx-plugin (0.10.4-1~ubuntu.22.04~jammy) ...
+Setting up containerd.io (1.6.20-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.Setting up docker-compose-plugin (2.17.3-1~ubuntu.22.04~jammy) ...
+Setting up libltdl7:amd64 (2.4.6-15build2) ...
+Setting up docker-ce-cli (5:23.0.5-1~ubuntu.22.04~jammy) ...
+Setting up libslirp0:amd64 (4.6.1-1build1) ...
+Setting up pigz (2.6-1) ...
+Setting up docker-ce-rootless-extras (5:23.0.5-1~ubuntu.22.04~jammy) ...
+Setting up slirp4netns (1.0.1-2) ...
+Setting up docker-ce (5:23.0.5-1~ubuntu.22.04~jammy) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+Scanning processes...
+Scanning linux images...
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+sinku247@labuser63:~$ sudo docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete
+Digest: sha256:4e83453afed1b4fa1a3500525091dbfca6ce1e66903fd4c01ff015dbcb1ba33e
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+sinku247@labuser63:~$ sudo usermod -a -G docker $USER
+sinku247@labuser63:~$ sudo usermod -a -G docker $USER
+sinku247@labuser63:~$ exit
+logout
+Connection to 20.222.146.58 closed.
+
+C:\Users\maver>ssh sinku247@20.222.146.58
+sinku247@20.222.146.58's password:
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-1037-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  3 01:18:04 UTC 2023
+
+  System load:  0.09423828125     Processes:                144
+  Usage of /:   7.3% of 28.89GB   Users logged in:          0
+  Memory usage: 2%                IPv4 address for docker0: 172.17.0.1
+  Swap usage:   0%                IPv4 address for eth0:    10.7.0.4
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+2 updates can be applied immediately.
+2 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed May  3 01:10:06 2023 from 121.130.80.121
+sinku247@labuser63:~$ docker
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.10.4)
+  compose*    Docker Compose (Docker Inc., v2.17.3)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/home/sinku247/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/sinku247/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/sinku247/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/sinku247/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+sinku247@labuser63:~$ git clone https://github.com/Azure-Samples/azure-voting-app-redis.git
+Cloning into 'azure-voting-app-redis'...
+remote: Enumerating objects: 174, done.
+remote: Total 174 (delta 0), reused 0 (delta 0), pack-reused 174
+Receiving objects: 100% (174/174), 38.43 KiB | 959.00 KiB/s, done.
+Resolving deltas: 100% (74/74), done.
+sinku247@labuser63:~$ ls
+azure-voting-app-redis
+sinku247@labuser63:~$ cd azure-voting-app-redis/
+sinku247@labuser63:~/azure-voting-app-redis$ ls -al
+total 40
+drwxrwxr-x 5 sinku247 sinku247 4096 May  3 01:23 .
+drwxr-x--- 5 sinku247 sinku247 4096 May  3 01:23 ..
+drwxrwxr-x 8 sinku247 sinku247 4096 May  3 01:23 .git
+-rw-rw-r-- 1 sinku247 sinku247 1157 May  3 01:23 .gitignore
+-rw-rw-r-- 1 sinku247 sinku247 1162 May  3 01:23 LICENSE
+-rw-rw-r-- 1 sinku247 sinku247 1806 May  3 01:23 README.md
+drwxrwxr-x 3 sinku247 sinku247 4096 May  3 01:23 azure-vote
+-rw-rw-r-- 1 sinku247 sinku247 1532 May  3 01:23 azure-vote-all-in-one-redis.yaml
+-rw-rw-r-- 1 sinku247 sinku247  433 May  3 01:23 docker-compose.yaml
+drwxrwxr-x 2 sinku247 sinku247 4096 May  3 01:23 jenkins-tutorial
+sinku247@labuser63:~/azure-voting-app-redis$ ^C
+sinku247@labuser63:~/azure-voting-app-redis$ docker-compose up -d
+Command 'docker-compose' not found, but can be installed with:
+sudo snap install docker          # version 20.10.17, or
+sudo apt  install docker-compose  # version 1.29.2-1
+See 'snap info docker' for additional versions.
+sinku247@labuser63:~/azure-voting-app-redis$ cat docker-compose.yaml
+version: '3'
+services:
+  azure-vote-back:
+    image: mcr.microsoft.com/oss/bitnami/redis:6.0.8
+    container_name: azure-vote-back
+    environment:
+      ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+        - "6379:6379"
+
+  azure-vote-front:
+    build: ./azure-vote
+    image: mcr.microsoft.com/azuredocs/azure-vote-front:v1
+    container_name: azure-vote-front
+    environment:
+      REDIS: azure-vote-back
+    ports:
+        - "8080:80"
+sinku247@labuser63:~/azure-voting-app-redis$ sudo apt-get install docker compose
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package compose
+sinku247@labuser63:~/azure-voting-app-redis$ sudo apt-get install docker-compose
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  python3-docker python3-dockerpty python3-docopt python3-dotenv python3-texttable python3-websocket
+Recommended packages:
+  docker.io
+The following NEW packages will be installed:
+  docker-compose python3-docker python3-dockerpty python3-docopt python3-dotenv python3-texttable python3-websocket
+0 upgraded, 7 newly installed, 0 to remove and 2 not upgraded.
+Need to get 290 kB of archives.
+After this operation, 1545 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-websocket all 1.2.3-1 [34.7 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-docker all 5.0.3-1 [89.3 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-dockerpty all 0.4.1-2 [11.1 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-docopt all 0.6.2-4 [26.9 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-dotenv all 0.19.2-1 [20.5 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-texttable all 1.6.4-1 [11.4 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 docker-compose all 1.29.2-1 [95.8 kB]
+Fetched 290 kB in 0s (9464 kB/s)
+Selecting previously unselected package python3-websocket.
+(Reading database ... 60673 files and directories currently installed.)
+Preparing to unpack .../0-python3-websocket_1.2.3-1_all.deb ...
+Unpacking python3-websocket (1.2.3-1) ...
+Selecting previously unselected package python3-docker.
+Preparing to unpack .../1-python3-docker_5.0.3-1_all.deb ...
+Unpacking python3-docker (5.0.3-1) ...
+Selecting previously unselected package python3-dockerpty.
+Preparing to unpack .../2-python3-dockerpty_0.4.1-2_all.deb ...
+Unpacking python3-dockerpty (0.4.1-2) ...
+Selecting previously unselected package python3-docopt.
+Preparing to unpack .../3-python3-docopt_0.6.2-4_all.deb ...
+Unpacking python3-docopt (0.6.2-4) ...
+Selecting previously unselected package python3-dotenv.
+Preparing to unpack .../4-python3-dotenv_0.19.2-1_all.deb ...
+Unpacking python3-dotenv (0.19.2-1) ...
+Selecting previously unselected package python3-texttable.
+Preparing to unpack .../5-python3-texttable_1.6.4-1_all.deb ...
+Unpacking python3-texttable (1.6.4-1) ...
+Selecting previously unselected package docker-compose.
+Preparing to unpack .../6-docker-compose_1.29.2-1_all.deb ...
+Unpacking docker-compose (1.29.2-1) ...
+Setting up python3-dotenv (0.19.2-1) ...
+Setting up python3-texttable (1.6.4-1) ...
+Setting up python3-docopt (0.6.2-4) ...
+Setting up python3-websocket (1.2.3-1) ...
+Setting up python3-dockerpty (0.4.1-2) ...
+Setting up python3-docker (5.0.3-1) ...
+Setting up docker-compose (1.29.2-1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...
+Scanning linux images...
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+sinku247@labuser63:~/azure-voting-app-redis$ docker-compose up -d
+Creating network "azure-voting-app-redis_default" with the default driver
+Pulling azure-vote-back (mcr.microsoft.com/oss/bitnami/redis:6.0.8)...
+6.0.8: Pulling from oss/bitnami/redis
+58212c1109c5: Pull complete
+476959f86aed: Pull complete
+e9439c5c5ef5: Pull complete
+bf887c7f6b15: Pull complete
+4e934f6d99d2: Pull complete
+e33ec5243c54: Pull complete
+9f99ff6b922f: Pull complete
+097294963657: Pull complete
+919efe137172: Pull complete
+b3346fcea345: Pull complete
+3bb7743413aa: Pull complete
+Digest: sha256:9b53ae0f1cf3f7d7854584c8b7c5a96fe732c48d504331da6c00f892fdcce102
+Status: Downloaded newer image for mcr.microsoft.com/oss/bitnami/redis:6.0.8
+Building azure-vote-front
+[+] Building 30.2s (8/8) FINISHED
+ => [internal] load .dockerignore                                                                                  0.1s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load build definition from Dockerfile                                                               0.1s
+ => => transferring dockerfile: 122B                                                                               0.0s
+ => [internal] load metadata for docker.io/tiangolo/uwsgi-nginx-flask:python3.6                                    1.7s
+ => [1/3] FROM docker.io/tiangolo/uwsgi-nginx-flask:python3.6@sha256:07b3a61dc2f6d6b294065f929d33cdf6416133320cf  24.7s
+ => => resolve docker.io/tiangolo/uwsgi-nginx-flask:python3.6@sha256:07b3a61dc2f6d6b294065f929d33cdf6416133320cf6  0.0s
+ => => sha256:bbced17b6899896c8e4016d62c885d737fe667acace2733e17c64bb974232887 10.00MB / 10.00MB                   0.8s
+ => => sha256:893854f32f35504c63b9c26920224a14a9386f3970ee16d52d5752fda54ebb75 17.02kB / 17.02kB                   0.0s
+ => => sha256:b6013b3e77fe6fd3dcf46a05f8e5b3afa9fbca7ba0161c62e56beb4058334dec 7.83MB / 7.83MB                     0.5s
+ => => sha256:9b99af5931b39ce167150ad668cfa57ddf7664697be9996cb7e0e6aebbf05843 50.44MB / 50.44MB                   0.7s
+ => => sha256:07b3a61dc2f6d6b294065f929d33cdf6416133320cf61cc66b7cdb1428460e75 6.58kB / 6.58kB                     0.0s
+ => => sha256:8b609dabefa83fae157bcd42123a8ed45199bb6c301e09a11260c1cad9babfef 51.84MB / 51.84MB                   1.3s
+ => => extracting sha256:9b99af5931b39ce167150ad668cfa57ddf7664697be9996cb7e0e6aebbf05843                          2.0s
+ => => sha256:50544bfef33d1d653b7bc10316e20bd84889fd56dd2b7e2f742db8364f6aeb70 192.43MB / 192.43MB                 4.5s
+ => => sha256:964244a9290251f119f00e920dbd27a25aaddb861833e0971b19278a003be884 6.15MB / 6.15MB                     1.4s
+ => => sha256:ef5d3eb9cc29dbe223b94578946c3e6e2564beeb6a832c3254fc558a68491b5f 15.56MB / 15.56MB                   1.7s
+ => => sha256:82cee9e5607e5b60b2d674de7ef4c3ca9d528015ac4dd35e466c08be819bcb2b 234B / 234B                         1.6s
+ => => sha256:1d082f1c77ef465e78c4320063992bdb3fd9075457c4a29bf82e9fdd4edca7fa 2.21MB / 2.21MB                     1.8s
+ => => sha256:aa6096e9247c9157976f9d05c05e72bf826a43f07e650a2739c3f1232c571660 1.34kB / 1.34kB                     2.0s
+ => => sha256:035717d61e638e3ad305e5b9ece766a5a0b6827d23616cdd8d3460b8d7bd64f6 5.16MB / 5.16MB                     2.1s
+ => => sha256:ed4a97ae5ac7421082a33471fa8bb2a30e788cf0058470089eba9fd3da979407 159B / 159B                         2.2s
+ => => sha256:acb7c5d0483a0a69632769b7ad92cbe54a435aed9603b0340e39acb0ff10edd2 3.35MB / 3.35MB                     2.3s
+ => => sha256:0c185d5f06f52a76d6ab07ac7aad846305da1f872164d74d45c3341146f3743b 174B / 174B                         2.4s
+ => => sha256:f8c9873f4d43621c6e90da7d19e635cf3deab60dcb3cf62997b2ef7b9903ffa5 379B / 379B                         2.5s
+ => => sha256:84955850c449a24d18b2449cc4b04b1e0fc92bc0da47ff71d9211aed3fc9b930 1.31MB / 1.31MB                     4.5s
+ => => sha256:8d912340d42fd5298f74c7245724842c63186e0e412d535feff261adf5335c1a 468B / 468B                         4.5s
+ => => extracting sha256:b6013b3e77fe6fd3dcf46a05f8e5b3afa9fbca7ba0161c62e56beb4058334dec                          0.2s
+ => => sha256:6be9e12f32d2504e33c99b232ef0d771fd54a214a11c4a50253820996d854739 464B / 464B                         5.8s
+ => => sha256:30a7f564ed9b7656309f4a3653c73fd46be5efeec5bcc21ad855e45880e32f08 319B / 319B                         4.8s
+ => => sha256:665c733fa791b5b1df28fce65e9a5cb685beba70ab0fa0a3eb10358e1d25222a 466B / 466B                         4.8s
+ => => sha256:9e7c88149aebf9056b6e760e6a8c5b8c3fae85727b59ea2f11c3c3b5a5721754 321B / 321B                         5.9s
+ => => extracting sha256:bbced17b6899896c8e4016d62c885d737fe667acace2733e17c64bb974232887                          0.2s
+ => => sha256:34a5c6a1c2a1a97545eb6578f728f35ab2948a70010899cd9cf14b6501aa1ba5 1.18kB / 1.18kB                     6.0s
+ => => sha256:885120729d88ef07f72a04774b37f5dd87f40b3706a2374c3fb5d53f5dd12489 1.18kB / 1.18kB                     6.0s
+ => => sha256:dd4f9dfeb1aa3413c6195e0cc617fa3e8e93c7abfa132d8bdcd3f45528dfae3e 566B / 566B                         6.2s
+ => => sha256:e35b52c78ecbc3a83b4c850b8a4245ae0a3779fd70e9f9f081ef4957d785d87c 1.42MB / 1.42MB                     6.3s
+ => => sha256:c426d5c1c45db8d9cbca6180eada79e7d02448337255b5dca1cf8bbed50425a1 158B / 158B                         6.2s
+ => => sha256:8207fdd6f90f6de062a0330e65077994726a229d5a1901875ea55ddc94b725f5 583B / 583B                         6.4s
+ => => extracting sha256:8b609dabefa83fae157bcd42123a8ed45199bb6c301e09a11260c1cad9babfef                          1.6s
+ => => sha256:e8f1891867bb2616d34f886a3ce5018d5970aa9d78979bf21c3615e250927d6f 1.21kB / 1.21kB                     6.4s
+ => => sha256:2d8416768318fc03218e4d07952785c10dc2247829f12a0e171fbf06282186e1 769B / 769B                         6.5s
+ => => sha256:22f54745300f3bcff5d61e3d1ad2f56adeee1c8e6150c9dedb9e93d23c0979ec 769B / 769B                         6.6s
+ => => extracting sha256:50544bfef33d1d653b7bc10316e20bd84889fd56dd2b7e2f742db8364f6aeb70                          4.9s
+ => => extracting sha256:964244a9290251f119f00e920dbd27a25aaddb861833e0971b19278a003be884                          0.2s
+ => => extracting sha256:ef5d3eb9cc29dbe223b94578946c3e6e2564beeb6a832c3254fc558a68491b5f                          0.5s
+ => => extracting sha256:82cee9e5607e5b60b2d674de7ef4c3ca9d528015ac4dd35e466c08be819bcb2b                          0.0s
+ => => extracting sha256:1d082f1c77ef465e78c4320063992bdb3fd9075457c4a29bf82e9fdd4edca7fa                          0.2s
+ => => extracting sha256:aa6096e9247c9157976f9d05c05e72bf826a43f07e650a2739c3f1232c571660                          0.0s
+ => => extracting sha256:035717d61e638e3ad305e5b9ece766a5a0b6827d23616cdd8d3460b8d7bd64f6                          0.2s
+ => => extracting sha256:ed4a97ae5ac7421082a33471fa8bb2a30e788cf0058470089eba9fd3da979407                          0.0s
+ => => extracting sha256:acb7c5d0483a0a69632769b7ad92cbe54a435aed9603b0340e39acb0ff10edd2                          0.2s
+ => => extracting sha256:0c185d5f06f52a76d6ab07ac7aad846305da1f872164d74d45c3341146f3743b                          0.0s
+ => => extracting sha256:f8c9873f4d43621c6e90da7d19e635cf3deab60dcb3cf62997b2ef7b9903ffa5                          0.0s
+ => => extracting sha256:84955850c449a24d18b2449cc4b04b1e0fc92bc0da47ff71d9211aed3fc9b930                          0.1s
+ => => extracting sha256:8d912340d42fd5298f74c7245724842c63186e0e412d535feff261adf5335c1a                          0.0s
+ => => extracting sha256:665c733fa791b5b1df28fce65e9a5cb685beba70ab0fa0a3eb10358e1d25222a                          0.0s
+ => => extracting sha256:6be9e12f32d2504e33c99b232ef0d771fd54a214a11c4a50253820996d854739                          0.0s
+ => => extracting sha256:30a7f564ed9b7656309f4a3653c73fd46be5efeec5bcc21ad855e45880e32f08                          0.0s
+ => => extracting sha256:9e7c88149aebf9056b6e760e6a8c5b8c3fae85727b59ea2f11c3c3b5a5721754                          0.0s
+ => => extracting sha256:885120729d88ef07f72a04774b37f5dd87f40b3706a2374c3fb5d53f5dd12489                          0.0s
+ => => extracting sha256:34a5c6a1c2a1a97545eb6578f728f35ab2948a70010899cd9cf14b6501aa1ba5                          0.0s
+ => => extracting sha256:dd4f9dfeb1aa3413c6195e0cc617fa3e8e93c7abfa132d8bdcd3f45528dfae3e                          0.0s
+ => => extracting sha256:c426d5c1c45db8d9cbca6180eada79e7d02448337255b5dca1cf8bbed50425a1                          0.0s
+ => => extracting sha256:e35b52c78ecbc3a83b4c850b8a4245ae0a3779fd70e9f9f081ef4957d785d87c                          0.1s
+ => => extracting sha256:8207fdd6f90f6de062a0330e65077994726a229d5a1901875ea55ddc94b725f5                          0.0s
+ => [2/3] RUN pip install redis                                                                                    2.0s
+ => [3/3] ADD /azure-vote /app                                                                                     0.1s
+ => exporting to image                                                                                             1.5s
+ => => exporting layers                                                                                            1.5s
+ => => writing image sha256:3708e825eef875231c0ff84065f2fd4ff31c0fd5eb038d1af96c176a5e311c4b                       0.0s
+ => => naming to mcr.microsoft.com/azuredocs/azure-vote-front:v1                                                   0.0s
+WARNING: Image for service azure-vote-front was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+Creating azure-vote-front ... done
+Creating azure-vote-back  ... done
+sinku247@labuser63:~/azure-voting-app-redis$ sudo apt install git
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following packages will be upgraded:
+  git
+1 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Need to get 3166 kB of archives.
+After this operation, 123 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.9 [3166 kB]
+Fetched 3166 kB in 0s (46.5 MB/s)
+(Reading database ... 60933 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.9_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.9) over (1:2.34.1-1ubuntu1.8) ...
+Setting up git (1:2.34.1-1ubuntu1.9) ...
+Scanning processes...
+Scanning linux images...
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+sinku247@labuser63:~/azure-voting-app-redis$ git config --global user.name sinku247
+sinku247@labuser63:~/azure-voting-app-redis$ git config --global user.email maversink@gmail.com
+sinku247@labuser63:~/azure-voting-app-redis$ git init
+Reinitialized existing Git repository in /home/sinku247/azure-voting-app-redis/.git/
+sinku247@labuser63:~/azure-voting-app-redis$ git remote add origin https://github.com/sinku247/ubuntu63.git
+error: remote origin already exists.
+sinku247@labuser63:~/azure-voting-app-redis$ git remote add origin https://github.com/sinku247/ubuntu.git
+error: remote origin already exists.
+sinku247@labuser63:~/azure-voting-app-redis$ git remote remove origin
+sinku247@labuser63:~/azure-voting-app-redis$ git remote add origin https://github.com/sinku247/ubuntu63.git
+sinku247@labuser63:~/azure-voting-app-redis$ git fetch origin
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 590 bytes | 590.00 KiB/s, done.
+From https://github.com/sinku247/ubuntu63
+ * [new branch]      main       -> origin/main
+sinku247@labuser63:~/azure-voting-app-redis$ docker images
+REPOSITORY                                     TAG       IMAGE ID       CREATED         SIZE
+mcr.microsoft.com/azuredocs/azure-vote-front   v1        3708e825eef8   9 minutes ago   909MB
+hello-world                                    latest    feb5d9fea6a5   19 months ago   13.3kB
+mcr.microsoft.com/oss/bitnami/redis            6.0.8     3a54a920bb6c   2 years ago     103MB
+sinku247@labuser63:~/azure-voting-app-redis$ docker ps
+CONTAINER ID   IMAGE                                             COMMAND                  CREATED         STATUS         PORTS                                            NAMES
+82e29904e975   mcr.microsoft.com/azuredocs/azure-vote-front:v1   "/entrypoint.sh /sta…"   9 minutes ago   Up 9 minutes   443/tcp, 0.0.0.0:8080->80/tcp, :::8080->80/tcp   azure-vote-front
+cc7e5b76f3f4   mcr.microsoft.com/oss/bitnami/redis:6.0.8         "/opt/bitnami/script…"   9 minutes ago   Up 9 minutes   0.0.0.0:6379->6379/tcp, :::6379->6379/tcp        azure-vote-back
+sinku247@labuser63:~/azure-voting-app-redis$ ^C
+sinku247@labuser63:~/azure-voting-app-redis$ docker-compose up -d
+azure-vote-front is up-to-date
+azure-vote-back is up-to-date
+sinku247@labuser63:~/azure-voting-app-redis$ docker-compose down
+Stopping azure-vote-front ... done
+Stopping azure-vote-back  ... done
+Removing azure-vote-front ... done
+Removing azure-vote-back  ... done
+Removing network azure-voting-app-redis_default
+osinku247@labuser63:~/azure-voting-app-redis$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+sinku247@labuser63:~/azure-voting-app-redis$ docker images
+REPOSITORY                                     TAG       IMAGE ID       CREATED          SIZE
+mcr.microsoft.com/azuredocs/azure-vote-front   v1        3708e825eef8   49 minutes ago   909MB
+hello-world                                    latest    feb5d9fea6a5   19 months ago    13.3kB
+mcr.microsoft.com/oss/bitnami/redis            6.0.8     3a54a920bb6c   2 years ago      103MB
+sinku247@labuser63:~/azure-voting-app-redis$ docker-compose up -d
+Creating network "azure-voting-app-redis_default" with the default driver
+Creating azure-vote-front ... done
+Creating azure-vote-back  ... done
+sinku247@labuser63:~/azure-voting-app-redis$ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+Hit:1 http://azure.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://azure.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:5 https://download.docker.com/linux/ubuntu jammy InRelease
+Get:6 http://azure.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [18.7 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [14.3 kB]
+Fetched 370 kB in 1s (705 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+lsb-release is already the newest version (11.1.0ubuntu4).
+lsb-release set to manually installed.
+curl is already the newest version (7.81.0-1ubuntu1.10).
+gnupg is already the newest version (2.2.27-3ubuntu2.1).
+The following NEW packages will be installed:
+  apt-transport-https
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1510 B of archives.
+After this operation, 169 kB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 apt-transport-https all 2.4.9 [1510 B]
+Fetched 1510 B in 0s (58.2 kB/s)
+Selecting previously unselected package apt-transport-https.
+(Reading database ... 60933 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_2.4.9_all.deb ...
+Unpacking apt-transport-https (2.4.9) ...
+Setting up apt-transport-https (2.4.9) ...
+NEEDRESTART-VER: 3.5
+NEEDRESTART-KCUR: 5.15.0-1037-azure
+NEEDRESTART-KEXP: 5.15.0-1037-azure
+NEEDRESTART-KSTA: 1
+Hit:1 http://azure.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://azure.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://azure.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://azure.archive.ubuntu.com/ubuntu jammy-security InRelease
+Hit:5 https://download.docker.com/linux/ubuntu jammy InRelease
+Get:6 https://packages.microsoft.com/repos/azure-cli jammy InRelease [3575 B]
+Get:7 https://packages.microsoft.com/repos/azure-cli jammy/main amd64 Packages [718 B]
+Get:8 https://packages.microsoft.com/repos/azure-cli jammy/main all Packages [1096 B]
+Fetched 5389 B in 1s (7718 B/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  azure-cli
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 50.8 MB of archives.
+After this operation, 576 MB of additional disk space will be used.
+Get:1 https://packages.microsoft.com/repos/azure-cli jammy/main amd64 azure-cli amd64 2.48.1-1~jammy [50.8 MB]
+Fetched 50.8 MB in 2s (32.0 MB/s)
+Selecting previously unselected package azure-cli.
+(Reading database ... 60937 files and directories currently installed.)
+Preparing to unpack .../azure-cli_2.48.1-1~jammy_amd64.deb ...
+Unpacking azure-cli (2.48.1-1~jammy) ...
+Setting up azure-cli (2.48.1-1~jammy) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+NEEDRESTART-VER: 3.5
+NEEDRESTART-KCUR: 5.15.0-1037-azure
+NEEDRESTART-KEXP: 5.15.0-1037-azure
+NEEDRESTART-KSTA: 1
+sinku247@labuser63:~/azure-voting-app-redis$ az --version
+azure-cli                         2.48.1
+
+core                              2.48.1
+telemetry                          1.0.8
+
+Dependencies:
+msal                              1.20.0
+azure-mgmt-resource               22.0.0
+
+Python location '/opt/az/bin/python3'
+Extensions directory '/home/sinku247/.azure/cliextensions'
+
+Python (Linux) 3.10.10 (main, Apr 25 2023, 04:23:10) [GCC 11.3.0]
+
+Legal docs and information: aka.ms/AzureCliLegal
+
+
+Your CLI is up-to-date.
+sinku247@labuser63:~/azure-voting-app-redis$ az login
+To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code I7VXLZMH7 to authenticate.
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "373346ec-cc5f-4210-b5bc-9a4c2d9517d8",
+    "id": "3f43e823-597d-46de-8acc-3385c3f14d12",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Microsoft Azure 스뽄서",
+    "state": "Enabled",
+    "tenantId": "373346ec-cc5f-4210-b5bc-9a4c2d9517d8",
+    "user": {
+      "name": "labuser63@helloaicloud.onmicrosoft.com",
+      "type": "user"
+    }
+  }
+]
+sinku247@labuser63:~/azure-voting-app-redis$ az group list --output table
+Name                                        Location       Status
+------------------------------------------  -------------  ---------
+ResourceMoverRG-koreacentral-ukwest-uks     uksouth        Succeeded
+cloud-shell-storage-southeastasia           southeastasia  Succeeded
+HelloAIOffice                               koreacentral   Succeeded
+NetworkWatcherRG                            koreacentral   Succeeded
+RG1                                         koreacentral   Succeeded
+RG2                                         koreacentral   Succeeded
+RG3                                         koreacentral   Succeeded
+RG4                                         koreacentral   Succeeded
+RG5                                         koreacentral   Succeeded
+RG6                                         koreacentral   Succeeded
+RG7                                         koreacentral   Succeeded
+RG8                                         koreacentral   Succeeded
+RG9                                         koreacentral   Succeeded
+RG10                                        koreacentral   Succeeded
+RG11                                        koreacentral   Succeeded
+RG12                                        koreacentral   Succeeded
+RG13                                        koreacentral   Succeeded
+RG14                                        koreacentral   Succeeded
+RG15                                        koreacentral   Succeeded
+RG16                                        koreacentral   Succeeded
+RG17                                        koreacentral   Succeeded
+RG18                                        koreacentral   Succeeded
+RG19                                        koreacentral   Succeeded
+RG20                                        koreacentral   Succeeded
+RG21                                        koreacentral   Succeeded
+RG22                                        koreacentral   Succeeded
+RG23                                        koreacentral   Succeeded
+RG24                                        koreacentral   Succeeded
+RG25                                        koreacentral   Succeeded
+RG26                                        koreacentral   Succeeded
+RG27                                        koreacentral   Succeeded
+RG28                                        koreacentral   Succeeded
+RG29                                        koreacentral   Succeeded
+RG30                                        koreacentral   Succeeded
+RG31                                        koreacentral   Succeeded
+RG32                                        koreacentral   Succeeded
+RG33                                        koreacentral   Succeeded
+RG34                                        koreacentral   Succeeded
+RG35                                        koreacentral   Succeeded
+RG36                                        koreacentral   Succeeded
+RG37                                        koreacentral   Succeeded
+RG38                                        koreacentral   Succeeded
+RG39                                        koreacentral   Succeeded
+RG40                                        koreacentral   Succeeded
+RG41                                        koreacentral   Succeeded
+RG42                                        koreacentral   Succeeded
+RG43                                        koreacentral   Succeeded
+RG44                                        koreacentral   Succeeded
+RG45                                        koreacentral   Succeeded
+RG46                                        koreacentral   Succeeded
+RG47                                        koreacentral   Succeeded
+RG48                                        koreacentral   Succeeded
+RG49                                        koreacentral   Succeeded
+RG50                                        koreacentral   Succeeded
+RG51                                        koreacentral   Succeeded
+RG52                                        koreacentral   Succeeded
+RG53                                        koreacentral   Succeeded
+RG54                                        koreacentral   Succeeded
+RG55                                        koreacentral   Succeeded
+RG56                                        koreacentral   Succeeded
+RG57                                        koreacentral   Succeeded
+RG58                                        koreacentral   Succeeded
+RG59                                        koreacentral   Succeeded
+RG60                                        koreacentral   Succeeded
+RG61                                        koreacentral   Succeeded
+RG62                                        koreacentral   Succeeded
+RG63                                        koreacentral   Succeeded
+RG64                                        koreacentral   Succeeded
+RG65                                        koreacentral   Succeeded
+RG66                                        koreacentral   Succeeded
+RG67                                        koreacentral   Succeeded
+RG68                                        koreacentral   Succeeded
+RG69                                        koreacentral   Succeeded
+RG70                                        koreacentral   Succeeded
+RG71                                        koreacentral   Succeeded
+RG72                                        koreacentral   Succeeded
+RG73                                        koreacentral   Succeeded
+RG74                                        koreacentral   Succeeded
+RG75                                        koreacentral   Succeeded
+RG76                                        koreacentral   Succeeded
+RG77                                        koreacentral   Succeeded
+RG78                                        koreacentral   Succeeded
+RG79                                        koreacentral   Succeeded
+RG80                                        koreacentral   Succeeded
+RG81                                        koreacentral   Succeeded
+RG82                                        koreacentral   Succeeded
+RG83                                        koreacentral   Succeeded
+RG84                                        koreacentral   Succeeded
+RG85                                        koreacentral   Succeeded
+RG86                                        koreacentral   Succeeded
+RG87                                        koreacentral   Succeeded
+RG88                                        koreacentral   Succeeded
+RG89                                        koreacentral   Succeeded
+RG90                                        koreacentral   Succeeded
+RG91                                        koreacentral   Succeeded
+RG92                                        koreacentral   Succeeded
+RG93                                        koreacentral   Succeeded
+RG94                                        koreacentral   Succeeded
+RG95                                        koreacentral   Succeeded
+RG96                                        koreacentral   Succeeded
+RG97                                        koreacentral   Succeeded
+RG98                                        koreacentral   Succeeded
+RG99                                        koreacentral   Succeeded
+RG100                                       koreacentral   Succeeded
+RG101                                       koreacentral   Succeeded
+RG102                                       koreacentral   Succeeded
+RG103                                       koreacentral   Succeeded
+RG104                                       koreacentral   Succeeded
+RG105                                       koreacentral   Succeeded
+RG106                                       koreacentral   Succeeded
+RG107                                       koreacentral   Succeeded
+RG108                                       koreacentral   Succeeded
+RG109                                       koreacentral   Succeeded
+RG110                                       koreacentral   Succeeded
+RG111                                       koreacentral   Succeeded
+RG112                                       koreacentral   Succeeded
+RG113                                       koreacentral   Succeeded
+RG114                                       koreacentral   Succeeded
+RG115                                       koreacentral   Succeeded
+RG116                                       koreacentral   Succeeded
+RG117                                       koreacentral   Succeeded
+RG118                                       koreacentral   Succeeded
+RG119                                       koreacentral   Succeeded
+RG120                                       koreacentral   Succeeded
+ResourceMoverRG-eastus-australiacentral-ae  australiaeast  Succeeded
+myResourceGroup                             eastus         Succeeded
+sinku247@labuser63:~/azure-voting-app-redis$ az group list --output table > a.txt
+sinku247@labuser63:~/azure-voting-app-redis$ la a.txt
+a.txt
+sinku247@labuser63:~/azure-voting-app-redis$ rm a.txt
+sinku247@labuser63:~/azure-voting-app-redis$ az acr creat --resource-group RG63 --name labuser63acr --sku basic
+'creat' is misspelled or not recognized by the system.
+Did you mean 'create' ?
+
+Examples from AI knowledge base:
+https://aka.ms/cli_ref
+Read more about the command in reference docs
+sinku247@labuser63:~/azure-voting-app-redis$ az acr create --resource-group RG63 --name labuser63acr --sku basic
+{
+  "adminUserEnabled": false,
+  "anonymousPullEnabled": false,
+  "creationDate": "2023-05-03T04:20:58.753658+00:00",
+  "dataEndpointEnabled": false,
+  "dataEndpointHostNames": [],
+  "encryption": {
+    "keyVaultProperties": null,
+    "status": "disabled"
+  },
+  "id": "/subscriptions/3f43e823-597d-46de-8acc-3385c3f14d12/resourceGroups/RG63/providers/Microsoft.ContainerRegistry/registries/labuser63acr",
+  "identity": null,
+  "location": "koreacentral",
+  "loginServer": "labuser63acr.azurecr.io",
+  "name": "labuser63acr",
+  "networkRuleBypassOptions": "AzureServices",
+  "networkRuleSet": null,
+  "policies": {
+    "azureAdAuthenticationAsArmPolicy": {
+      "status": "enabled"
+    },
+    "exportPolicy": {
+      "status": "enabled"
+    },
+    "quarantinePolicy": {
+      "status": "disabled"
+    },
+    "retentionPolicy": {
+      "days": 7,
+      "lastUpdatedTime": "2023-05-03T04:21:06.403474+00:00",
+      "status": "disabled"
+    },
+    "softDeletePolicy": {
+      "lastUpdatedTime": "2023-05-03T04:21:06.403474+00:00",
+      "retentionDays": 7,
+      "status": "disabled"
+    },
+    "trustPolicy": {
+      "status": "disabled",
+      "type": "Notary"
+    }
+  },
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "RG63",
+  "sku": {
+    "name": "Basic",
+    "tier": "Basic"
+  },
+  "status": null,
+  "systemData": {
+    "createdAt": "2023-05-03T04:20:58.753658+00:00",
+    "createdBy": "labuser63@helloaicloud.onmicrosoft.com",
+    "createdByType": "User",
+    "lastModifiedAt": "2023-05-03T04:20:58.753658+00:00",
+    "lastModifiedBy": "labuser63@helloaicloud.onmicrosoft.com",
+    "lastModifiedByType": "User"
+  },
+  "tags": {},
+  "type": "Microsoft.ContainerRegistry/registries",
+  "zoneRedundancy": "Disabled"
+}
+sinku247@labuser63:~/azure-voting-app-redis$ az acr login --name labuser63acr
+Login Succeeded
+sinku247@labuser63:~/azure-voting-app-redis$ docker images
+REPOSITORY                                     TAG       IMAGE ID       CREATED         SIZE
+mcr.microsoft.com/azuredocs/azure-vote-front   v1        3708e825eef8   3 hours ago     909MB
+hello-world                                    latest    feb5d9fea6a5   19 months ago   13.3kB
+mcr.microsoft.com/oss/bitnami/redis            6.0.8     3a54a920bb6c   2 years ago     103MB
+sinku247@labuser63:~/azure-voting-app-redis$ az acr list --resource-group RG63 --query "[].{acrLoginServer:loginServer}
+> " output table
+unrecognized arguments: output table
+
+Examples from AI knowledge base:
+az acr list --output table
+List container registries and show the results in a table, across multiple resource groups.
+
+az acr list --resource-group MyResourceGroup --output table
+List container registries in a resource group and show the results in a table.
+
+az acr repository list --name MyRegistry
+List repositories in a given Azure Container Registry.
+
+https://docs.microsoft.com/en-US/cli/azure/acr#az_acr_list
+Read more about the command in reference docs
+sinku247@labuser63:~/azure-voting-app-redis$ az acr list --resource-group RG63 --query "[].{acrLoginServer:loginServer}
+> az acr list --resource-group RG63 --query "[].{acrLoginServer:loginServer}
+argument --query: invalid jmespath_type value: '[].{acrLoginServer:loginServer}\naz acr list --resource-group RG63 --query [].{acrLoginServer:loginServer}'
+To learn more about --query, please visit: 'https://docs.microsoft.com/cli/azure/query-azure-cli'
+sinku247@labuser63:~/azure-voting-app-redis$ az acr list --resource-group RG63 --query "[].{acrLoginServer:loginServer}" --output table
+AcrLoginServer
+-----------------------
+labuser63acr.azurecr.io
+sinku247@labuser63:~/azure-voting-app-redis$ docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 labuser63acr.azurecr.io/azure-vote-fr
+ont:v1
+sinku247@labuser63:~/azure-voting-app-redis$ docker push labuser63acr.azurecr.io./azure-vote-front:v1
+invalid reference format
+sinku247@labuser63:~/azure-voting-app-redis$ docker push labuser63acr.azurecr.io/azure-vote.front:v1
+The push refers to repository [labuser63acr.azurecr.io/azure-vote.front]
+An image does not exist locally with the tag: labuser63acr.azurecr.io/azure-vote.front
+sinku247@labuser63:~/azure-voting-app-redis$ docker push labuser63acr.azurecr.io/azure-vote-front:v1
+The push refers to repository [labuser63acr.azurecr.io/azure-vote-front]
+7e4594952829: Preparing
+3ef2449728f5: Preparing
+7fa09efd4368: Preparing
+3ef2449728f5: Pushed
+7e8897f7b8f7: Pushed
+680ae47c91ac: Pushed
+7a6ef6a47b9e: Pushed
+e69ffe3cb4b0: Pushed
+51ba4c88076a: Pushed
+eec00d67d5bb: Pushed
+5fc7c2b27001: Pushed
+1da2dad2c577: Pushed
+55d69acce6f7: Pushed
+27719bd9113a: Pushed
+c6536c6f849a: Pushed
+46506d8e9a0b: Pushed
+204850d3b902: Pushed
+0fd6389d4235: Pushed
+e574ff69e423: Pushed
+7e47b58b7cef: Pushed
+6ee08aa47468: Pushed
+f0f0734adbb2: Pushed
+5d19ad18b108: Pushed
+2d3ee6e6c217: Pushed
+cd408f7623af: Pushed
+0b6b0cacd4b2: Pushed
+bbbb6b6cf09b: Pushed
+6ca8686315b6: Pushed
+9c2b7d0c8e89: Pushed
+79a45871588c: Pushed
+bdfff16e8653: Pushed
+dc4f2875405c: Pushed
+v1: digest: sha256:5e9afb40e0499ff2756063d5ff4a8ec33db82860830e25fa26502fa7c9b0d1f9 size: 7004
+sinku247@labuser63:~/azure-voting-app-redis$ az acr repository list --name labuser63acr.azurecr.io --output table
+The login server endpoint suffix '.azurecr.io' is automatically omitted.
+Result
+----------------
+azure-vote-front
+sinku247@labuser63:~/azure-voting-app-redis$ docker images
+REPOSITORY                                     TAG       IMAGE ID       CREATED         SIZE
+labuser63acr.azurecr.io/azure-vote-front       v1        3708e825eef8   3 hours ago     909MB
+mcr.microsoft.com/azuredocs/azure-vote-front   v1        3708e825eef8   3 hours ago     909MB
+hello-world                                    latest    feb5d9fea6a5   19 months ago   13.3kB
+mcr.microsoft.com/oss/bitnami/redis            6.0.8     3a54a920bb6c   2 years ago     103MB
+sinku247@labuser63:~/azure-voting-app-redis$ az acr repository show-tags --name labuser63acr.azurecr.io --repository azure-vote-front --outpu
+t table
+The login server endpoint suffix '.azurecr.io' is automatically omitted.
+Result
+--------
+v1
+sinku247@labuser63:~/azure-voting-app-redis$ az aks create \
+>
+the following arguments are required: --resource-group/-g, --name/-n
+
+Examples from AI knowledge base:
+az aks create --resource-group MyResourceGroup --name MyManagedCluster
+Create a kubernetes cluster with default kubernetes version, default SKU load balancer (Standard) and default vm set type (VirtualMachineScaleSets).
+
+az aks create --resource-group MyResourceGroup --name MyManagedCluster --enable-managed-identity
+Create a kubernetes cluster which enables managed identity.
+
+az group create --location westus --resource-group MyResourceGroup
+Create a new resource group in the West US region.
+
+https://docs.microsoft.com/en-US/cli/azure/aks#az_aks_create
+Read more about the command in reference docs
+sinku247@labuser63:~/azure-voting-app-redis$ az aks create \
+    --resource-group RG63 \
+    --name labuser63aks \
+    --node-count 2 \
+    --generate-ssh-keys \
+    --attach-acr labuser63acr.azurecr.io
+SSH key files '/home/sinku247/.ssh/id_rsa' and '/home/sinku247/.ssh/id_rsa.pub' have been generated under ~/.ssh to allow SSH access to the VM. If using machines without permanent storage like Azure Cloud Shell without an attached file share, back up your keys to a safe location
+The resource with name 'labuser63acr.azurecr.io' and type 'Microsoft.ContainerRegistry/registries' could not be found in subscription 'Microsoft Azure 스뽄서 (3f43e823-597d-46de-8acc-3385c3f14d12)'.
+sinku247@labuser63:~/azure-voting-app-redis$ ^C
+sinku247@labuser63:~/azure-voting-app-redis$ az aks create \
+    --resource-group RG63 \
+    --name labuser63aks2 \
+    --node-count 2 \
+    --generate-ssh-keys \
+    --attach-acr labuser63acr --location westus3
+AAD role propagation done[############################################]  100.0000%{
+  "aadProfile": null,
+  "addonProfiles": null,
+  "agentPoolProfiles": [
+    {
+      "availabilityZones": null,
+      "count": 2,
+      "creationData": null,
+      "currentOrchestratorVersion": "1.25.6",
+      "enableAutoScaling": false,
+      "enableEncryptionAtHost": false,
+      "enableFips": false,
+      "enableNodePublicIp": false,
+      "enableUltraSsd": false,
+      "gpuInstanceProfile": null,
+      "hostGroupId": null,
+      "kubeletConfig": null,
+      "kubeletDiskType": "OS",
+      "linuxOsConfig": null,
+      "maxCount": null,
+      "maxPods": 110,
+      "minCount": null,
+      "mode": "System",
+      "name": "nodepool1",
+      "nodeImageVersion": "AKSUbuntu-2204gen2containerd-202304.20.0",
+      "nodeLabels": null,
+      "nodePublicIpPrefixId": null,
+      "nodeTaints": null,
+      "orchestratorVersion": "1.25.6",
+      "osDiskSizeGb": 128,
+      "osDiskType": "Managed",
+      "osSku": "Ubuntu",
+      "osType": "Linux",
+      "podSubnetId": null,
+      "powerState": {
+        "code": "Running"
+      },
+      "provisioningState": "Succeeded",
+      "proximityPlacementGroupId": null,
+      "scaleDownMode": null,
+      "scaleSetEvictionPolicy": null,
+      "scaleSetPriority": null,
+      "spotMaxPrice": null,
+      "tags": null,
+      "type": "VirtualMachineScaleSets",
+      "upgradeSettings": {
+        "maxSurge": null
+      },
+      "vmSize": "Standard_DS2_v2",
+      "vnetSubnetId": null,
+      "workloadRuntime": null
+    }
+  ],
+  "apiServerAccessProfile": null,
+  "autoScalerProfile": null,
+  "autoUpgradeProfile": null,
+  "azureMonitorProfile": null,
+  "azurePortalFqdn": "labuser63a-rg63-3f43e8-fyxehvh6.portal.hcp.westus3.azmk8s.io",
+  "currentKubernetesVersion": "1.25.6",
+  "disableLocalAccounts": false,
+  "diskEncryptionSetId": null,
+  "dnsPrefix": "labuser63a-RG63-3f43e8",
+  "enablePodSecurityPolicy": null,
+  "enableRbac": true,
+  "extendedLocation": null,
+  "fqdn": "labuser63a-rg63-3f43e8-fyxehvh6.hcp.westus3.azmk8s.io",
+  "fqdnSubdomain": null,
+  "httpProxyConfig": null,
+  "id": "/subscriptions/3f43e823-597d-46de-8acc-3385c3f14d12/resourcegroups/RG63/providers/Microsoft.ContainerService/managedClusters/labuser63aks2",
+  "identity": {
+    "principalId": "56b29336-cdbe-4440-ac7e-47266753c4d3",
+    "tenantId": "373346ec-cc5f-4210-b5bc-9a4c2d9517d8",
+    "type": "SystemAssigned",
+    "userAssignedIdentities": null
+  },
+  "identityProfile": {
+    "kubeletidentity": {
+      "clientId": "085038e3-8a4a-46f2-bcaf-8a7001959a92",
+      "objectId": "907bdfea-6e87-4387-8e1e-ec1793de97a7",
+      "resourceId": "/subscriptions/3f43e823-597d-46de-8acc-3385c3f14d12/resourcegroups/MC_RG63_labuser63aks2_westus3/providers/Microsoft.ManagedIdentity/userAssignedIdentities/labuser63aks2-agentpool"
+    }
+  },
+  "kubernetesVersion": "1.25.6",
+  "linuxProfile": {
+    "adminUsername": "azureuser",
+    "ssh": {
+      "publicKeys": [
+        {
+          "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2ylHY45GtQf22ud29hv4I2PrZBwalBkS9TwkLLFNIEGjg7psfDYsn5ExrNyEMFXXXTUb4fgW30/joyg+gG9JMZuHDJYqbckpx4Kf7IPzgQ8aeSxG/ILPAn3BrH/80ez24lI+rQeog9HKV45w7J0sLcJCy6xC+qYpaOOTiGZK0+yrSI9kugNnWc4t7kOEcuygx/Rj2S+zWD7+zZsaAdz7j5yylcy2JVOmMLdzJbhDBlUQm1dbM8JsBFUKgmNpXT7a+co/y5Ze5AYlytdq0Ey2plmZ0cUv1udr0kEsjygExYxvtihewkq1lV5kWpUGxPINonG3x9g0YjJESI49tiOc7"
+        }
+      ]
+    }
+  },
+  "location": "westus3",
+  "maxAgentPools": 100,
+  "name": "labuser63aks2",
+  "networkProfile": {
+    "dnsServiceIp": "10.0.0.10",
+    "dockerBridgeCidr": "172.17.0.1/16",
+    "ipFamilies": [
+      "IPv4"
+    ],
+    "loadBalancerProfile": {
+      "allocatedOutboundPorts": null,
+      "effectiveOutboundIPs": [
+        {
+          "id": "/subscriptions/3f43e823-597d-46de-8acc-3385c3f14d12/resourceGroups/MC_RG63_labuser63aks2_westus3/providers/Microsoft.Network/publicIPAddresses/0b51925f-b7f1-43af-8fb2-655f2e519689",
+          "resourceGroup": "MC_RG63_labuser63aks2_westus3"
+        }
+      ],
+      "enableMultipleStandardLoadBalancers": null,
+      "idleTimeoutInMinutes": null,
+      "managedOutboundIPs": {
+        "count": 1,
+        "countIpv6": null
+      },
+      "outboundIPs": null,
+      "outboundIpPrefixes": null
+    },
+    "loadBalancerSku": "Standard",
+    "natGatewayProfile": null,
+    "networkDataplane": null,
+    "networkMode": null,
+    "networkPlugin": "kubenet",
+    "networkPluginMode": null,
+    "networkPolicy": null,
+    "outboundType": "loadBalancer",
+    "podCidr": "10.244.0.0/16",
+    "podCidrs": [
+      "10.244.0.0/16"
+    ],
+    "serviceCidr": "10.0.0.0/16",
+    "serviceCidrs": [
+      "10.0.0.0/16"
+    ]
+  },
+  "nodeResourceGroup": "MC_RG63_labuser63aks2_westus3",
+  "oidcIssuerProfile": {
+    "enabled": false,
+    "issuerUrl": null
+  },
+  "podIdentityProfile": null,
+  "powerState": {
+    "code": "Running"
+  },
+  "privateFqdn": null,
+  "privateLinkResources": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": null,
+  "resourceGroup": "RG63",
+  "securityProfile": {
+    "azureKeyVaultKms": null,
+    "defender": null,
+    "imageCleaner": null,
+    "workloadIdentity": null
+  },
+  "servicePrincipalProfile": {
+    "clientId": "msi",
+    "secret": null
+  },
+  "sku": {
+    "name": "Base",
+    "tier": "Free"
+  },
+  "storageProfile": {
+    "blobCsiDriver": null,
+    "diskCsiDriver": {
+      "enabled": true
+    },
+    "fileCsiDriver": {
+      "enabled": true
+    },
+    "snapshotController": {
+      "enabled": true
+    }
+  },
+  "systemData": null,
+  "tags": null,
+  "type": "Microsoft.ContainerService/ManagedClusters",
+  "windowsProfile": null,
+  "workloadAutoScalerProfile": {
+    "keda": null
+  }
+}
+sinku247@labuser63:~/azure-voting-app-redis$ az aks install-cli
+The detected architecture is 'x86_64', which will be regarded as 'amd64' and the corresponding binary will be downloaded. If there is any problem, please download the appropriate binary by yourself.
+Downloading client to "/usr/local/bin/kubectl" from "https://storage.googleapis.com/kubernetes-release/release/v1.27.1/bin/linux/amd64/kubectl"
+Connection error while attempting to download client ([Errno 13] Permission denied: '/usr/local/bin/kubectl')
+sinku247@labuser63:~/azure-voting-app-redis$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+sinku247@labuser63:~/azure-voting-app-redis$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+sinku247@labuser63:~/azure-voting-app-redis$ git commit -m "mc_rg63_labuseraks"
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+sinku247@labuser63:~/azure-voting-app-redis$ git push https://github.com/sinku247/ubuntu63.git kubernetes
+error: src refspec kubernetes does not match any
+error: failed to push some refs to 'https://github.com/sinku247/ubuntu63.git'
+sinku247@labuser63:~/azure-voting-app-redis$ git push https://github.com/sinku247/ubuntu63.git
+Username for 'https://github.com': kubernetes
+Password for 'https://kubernetes@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sinku247/ubuntu63.git/'
+sinku247@labuser63:~/azure-voting-app-redis$ git config --global user.name sinku247
+sinku247@labuser63:~/azure-voting-app-redis$ git config --global uesr.email maversink@gmail.com
+sinku247@labuser63:~/azure-voting-app-redis$ git push origin
+129888        66966         66967         77602         FETCH_HEAD    HEAD          master        origin/main
+sinku247@labuser63:~/azure-voting-app-redis$ git push origin HEAD:main
+Username for 'https://github.com': kubernetes
+Password for 'https://kubernetes@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sinku247/ubuntu63.git/'
+sinku247@labuser63:~/azure-voting-app-redis$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+sinku247@labuser63:~/azure-voting-app-redis$ git push --setupstream origin master
+error: unknown option `setupstream'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+sinku247@labuser63:~/azure-voting-app-redis$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+sinku247@labuser63:~/azure-voting-app-redis$ git push --set-upstream origin master
+Username for 'https://github.com': kubernetes
+Password for 'https://kubernetes@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sinku247/ubuntu63.git/'
+sinku247@labuser63:~/azure-voting-app-redis$ cd ../
+sinku247@labuser63:~$ git push
+fatal: not a git repository (or any of the parent directories): .git
+sinku247@labuser63:~$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/sinku247/.git/
+sinku247@labuser63:~$ git clone https://github.com/sinku247/ubuntu63.git
+Cloning into 'ubuntu63'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+sinku247@labuser63:~$ git config --global user.name sinku247
+sinku247@labuser63:~$ git config --global user.email maversink@gmail.com
+sinku247@labuser63:~$ git add .
+warning: adding embedded git repository: azure-voting-app-redis
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> azure-voting-app-redis
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached azure-voting-app-redis
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: ubuntu63
+sinku247@labuser63:~$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+sinku247@labuser63:~$ git add hello.html
+fatal: pathspec 'hello.html' did not match any files
+sinku247@labuser63:~$ git commit -m "kubernetes"
+[master (root-commit) 442b22b] kubernetes
+ 47 files changed, 443 insertions(+)
+ create mode 100644 .azure/az.json
+ create mode 100644 .azure/az.sess
+ create mode 100644 .azure/az_survey.json
+ create mode 100644 .azure/azureProfile.json
+ create mode 100644 .azure/clouds.config
+ create mode 100644 .azure/commandIndex.json
+ create mode 100644 .azure/commands/2023-05-03.02-44-28.login.7218.log
+ create mode 100644 .azure/commands/2023-05-03.04-07-12.group_list.7562.log
+ create mode 100644 .azure/commands/2023-05-03.04-17-58.group_list.7615.log
+ create mode 100644 .azure/commands/2023-05-03.04-20-18.acr_creat.7635.log
+ create mode 100644 .azure/commands/2023-05-03.04-20-57.acr_create.7644.log
+ create mode 100644 .azure/commands/2023-05-03.04-26-16.acr_login.7672.log
+ create mode 100644 .azure/commands/2023-05-03.04-48-15.acr_list.7770.log
+ create mode 100644 .azure/commands/2023-05-03.04-49-17.acr_list.7781.log
+ create mode 100644 .azure/commands/2023-05-03.04-49-37.acr_list.7793.log
+ create mode 100644 .azure/commands/2023-05-03.05-01-18.acr_repository_list.7866.log
+ create mode 100644 .azure/commands/2023-05-03.05-02-12.acr_repository_show-tags.7883.log
+ create mode 100644 .azure/commands/2023-05-03.05-20-24.aks_create.7982.log
+ create mode 100644 .azure/commands/2023-05-03.05-24-24.aks_create.8011.log
+ create mode 100644 .azure/commands/2023-05-03.05-42-36.aks_create.8113.log
+ create mode 100644 .azure/commands/2023-05-03.06-18-25.aks_install-cli.8451.log
+ create mode 100644 .azure/config
+ create mode 100644 .azure/extensionCommandTree.json
+ create mode 100644 .azure/logs/telemetry.log
+ create mode 100644 .azure/msal_http_cache.bin
+ create mode 100644 .azure/msal_token_cache.json
+ create mode 100644 .azure/telemetry.txt
+ create mode 100644 .azure/telemetry/cache
+ create mode 100644 .azure/versionCheck.json
+ create mode 100644 .bash_history
+ create mode 100644 .bash_logout
+ create mode 100644 .bashrc
+ create mode 100644 .cache/motd.legal-displayed
+ create mode 100644 .docker/.token_seed
+ create mode 100644 .docker/.token_seed.lock
+ create mode 100644 .docker/buildx/.buildNodeID
+ create mode 100644 .docker/buildx/.lock
+ create mode 100644 .docker/buildx/activity/default
+ create mode 100644 .docker/config.json
+ create mode 100644 .gitconfig
+ create mode 100644 .profile
+ create mode 100644 .ssh/authorized_keys
+ create mode 100644 .ssh/id_rsa
+ create mode 100644 .ssh/id_rsa.pub
+ create mode 100644 .sudo_as_admin_successful
+ create mode 160000 azure-voting-app-redis
+ create mode 160000 ubuntu63
+sinku247@labuser63:~$ git remote add origin https://github.com/sinku247/ubuntu63.git
+sinku247@labuser63:~$ git push ubuntu63 kubernetes
+error: src refspec kubernetes does not match any
+error: failed to push some refs to 'ubuntu63'
+sinku247@labuser63:~$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+sinku247@labuser63:~$ git push ubuntu63
+Enumerating objects: 51, done.
+Counting objects: 100% (51/51), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (51/51), 39.59 KiB | 4.40 MiB/s, done.
+Total 51 (delta 2), reused 0 (delta 0), pack-reused 0
+To ubuntu63
+ * [new branch]      master -> master
+sinku247@labuser63:~$ ls
+azure-voting-app-redis  ubuntu63
+sinku247@labuser63:~$ cd azure-voting-app-redis
+sinku247@labuser63:~/azure-voting-app-redis$ git push ubuntu63
+fatal: 'ubuntu63' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+sinku247@labuser63:~/azure-voting-app-redis$ sudo apt-get install git-core
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'git' instead of 'git-core'
+git is already the newest version (1:2.34.1-1ubuntu1.9).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+sinku247@labuser63:~/azure-voting-app-redis$ sudo apt-get install update
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package update
+sinku247@labuser63:~/azure-voting-app-redis$ git --version
+git version 2.34.1
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git config --global user.name sinku247
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git config --global user.email maversink@gmail.com
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git config --global color.ui "auto"
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git init
+Reinitialized existing Git repository in /home/sinku247/azure-voting-app-redis/.git/
+sinku247@labuser63:~/azure-voting-app-redis$ git status
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git remote add origin https://github.com/sinku247/ubuntu63.git
+error: remote origin already exists.
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git fetch origin
+sinku247@labuser63:~/azure-voting-app-redis$ gedit test.txt
+Command 'gedit' not found, but can be installed with:
+sudo snap install gedit  # version 42.2, or
+sudo apt  install gedit  # version 41.0-3
+See 'snap info gedit' for additional versions.
+sinku247@labuser63:~/azure-voting-app-redis$ mkdir dir_test
+sinku247@labuser63:~/azure-voting-app-redis$ gti status
+Command 'gti' not found, did you mean:
+  command 'gtg' from snap getting-things-gnome (0.6)
+  command 'gmi' from deb lieer (1.3-6)
+  command 'ghi' from deb ghi (1.2.0-1.1)
+  command 'git' from deb git (1:2.34.1-1ubuntu1.9)
+  command 'gtf' from deb xserver-xorg-core (2:21.1.4-2ubuntu1.7~22.04.1)
+  command 'bti' from deb bti (034-6)
+  command 'gt5' from deb gt5 (1.5.0~20111220+bzr29-4)
+  command 'gt' from deb genometools (1.6.2+ds-2)
+  command 'gsi' from deb gambc (4.9.3-1.2)
+  command 'ti' from deb ticgit (1.0.2.17-2.1)
+  command 'gth' from deb genomethreader (1.7.3+dfsg-6)
+  command 'gli' from deb ruby-gli (2.14.0-1.1)
+See 'snap info <snapname>' for additional versions.
+sinku247@labuser63:~/azure-voting-app-redis$ gedit test.txt
+Command 'gedit' not found, but can be installed with:
+sudo snap install gedit  # version 42.2, or
+sudo apt  install gedit  # version 41.0-3
+See 'snap info gedit' for additional versions.
+sinku247@labuser63:~/azure-voting-app-redis$ sudo snap install gedit
+gedit 42.2 from Canonical✓ installed
+sinku247@labuser63:~/azure-voting-app-redis$ gedit test.txt
+
+(gedit:10335): Gtk-WARNING **: 10:53:13.351: cannot open display:
+sinku247@labuser63:~/azure-voting-app-redis$ git status
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ gedit test.txt
+
+(gedit:10493): Gtk-WARNING **: 10:53:35.792: cannot open display:
+sinku247@labuser63:~/azure-voting-app-redis$ mkdir dir_test
+mkdir: cannot create directory ‘dir_test’: File exists
+sinku247@labuser63:~/azure-voting-app-redis$ git status
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git add -A
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git status
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git commit -m "test"
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ ls
+LICENSE  README.md  azure-vote  azure-vote-all-in-one-redis.yaml  dir_test  docker-compose.yaml  jenkins-tutorial
+sinku247@labuser63:~/azure-voting-app-redis$ git add .
+sinku247@labuser63:~/azure-voting-app-redis$ git init
+Reinitialized existing Git repository in /home/sinku247/azure-voting-app-redis/.git/
+sinku247@labuser63:~/azure-voting-app-redis$ git remote add origin https://github.com/sinku247/ubuntu63.git
+error: remote origin already exists.
+sinku247@labuser63:~/azure-voting-app-redis$ git add .
+sinku247@labuser63:~/azure-voting-app-redis$ sudo git commit -m "test"
+On branch master
+nothing to commit, working tree clean
+sinku247@labuser63:~/azure-voting-app-redis$ git push origin master
+Username for 'https://github.com': sinku247
+Password for 'https://sinku247@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sinku247/ubuntu63.git/'
+sinku247@labuser63:~/azure-voting-app-redis$ git push origin master
+Username for 'https://github.com': sinku247
+Password for 'https://sinku247@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sinku247/ubuntu63.git/'
+sinku247@labuser63:~/azure-voting-app-redis$ git push origin master
+Username for 'https://github.com': sinku247
+Password for 'https://sinku247@github.com':
+Enumerating objects: 174, done.
+Counting objects: 100% (174/174), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (97/97), done.
+Writing objects: 100% (174/174), 38.44 KiB | 38.44 MiB/s, done.
+Total 174 (delta 74), reused 174 (delta 74), pack-reused 0
+remote: Resolving deltas: 100% (74/74), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/sinku247/ubuntu63/pull/new/master
+remote:
+To https://github.com/sinku247/ubuntu63.git
+ * [new branch]      master -> master
+sinku247@labuser63:~/azure-voting-app-redis$
